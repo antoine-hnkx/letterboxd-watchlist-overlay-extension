@@ -19,9 +19,5 @@ A Chrome extension that adds a watchlist toggle button directly on film poster o
 
 ## Screenshot
 
-1. Download or clone this repo
-2. Open Chrome and go to `chrome://extensions`
-3. Enable **Developer mode** (top right)
-4. Click **Load unpacked** and select the extension folder
-5. Browse Letterboxd — watchlist buttons appear on poster hover
+![Screenshot of watchlist overlay on Letterboxd Top 250](screenshots/screenshot-top-500.png)
 
