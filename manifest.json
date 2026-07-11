@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Letterboxd Watchlist Overlay",
+  "version": "1.0.0",
+  "description": "Quickly add or remove movies from your watchlist on poster overlays",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": ["https://letterboxd.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://letterboxd.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

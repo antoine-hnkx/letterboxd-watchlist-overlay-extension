@@ -1,0 +1,40 @@
+.overlay-actions.overlay-large {
+  width: 110px !important;
+  margin-left: -55px !important;
+}
+
+.watchlist-link-target {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-watchlist .has-icon,
+.icon-watchlisted .has-icon {
+  background: none !important;
+}
+
+.icon-watchlist .icon,
+.icon-watchlisted .icon {
+  clip-path: inset(5px 0 1.9px 0);
+}
+
+.icon-watchlist .icon {
+  background-color: #ddeeff !important;
+  -webkit-mask-size: calc(800px * 21 / 44) auto !important;
+  -webkit-mask-position: calc(-408px * 21 / 44 + 5px) calc(-936px * 21 / 44 + 8px) !important;
+  -webkit-mask-repeat: no-repeat !important;
+  mask-size: calc(800px * 21 / 44) auto !important;
+  mask-position: calc(-408px * 21 / 44 + 5px) calc(-936px * 21 / 44 + 8px) !important;
+  mask-repeat: no-repeat !important;
+}
+
+.icon-watchlist .icon:hover {
+  background-color: #ccdbea !important;
+}
+
+.icon-watchlisted .icon {
+  background-size: calc(800px * 21 / 44) auto !important;
+  background-position: calc(-408px * 21 / 44 + 5px) calc(-896px * 21 / 44 + 7px) !important;
+  background-repeat: no-repeat !important;
+}
