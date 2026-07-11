@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Letterboxd Watchlist Overlay",
   "version": "1.0.0",
-  "description": "Quickly add or remove movies from your watchlist on poster overlays",
+  "description": "Add or remove movies from your Letterboxd watchlist directly from poster overlays",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
